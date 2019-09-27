@@ -23,4 +23,17 @@ foreach($transportasi as $k => $v)
 {
     echo $k." => ".$v."<br />";
 }
+echo "</ol>";
+
+$arr = array(
+    "Budi" => array(
+        "hobi" => array("memancing", "membaca")
+    ),
+    "Andi" => array(
+        "hobi" => array ("menyanyi", "travelling", "belanja")
+    )
+);
+// Budi memiliki hobi memancing dan membaca.
+// Andi memiliki hobi menyanyi, traveling dan belanja.
+
 ?>
