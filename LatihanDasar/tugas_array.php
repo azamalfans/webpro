@@ -31,17 +31,16 @@ $belanja = array(
 // 2. ... dst
 // Total pembelian Andi adalah Rp. ...
 foreach($customer as $idp => $name)
-$total = 0;
 {
+    $total = 0;
     echo $name." membeli barang sbb : <br /></ol>";
     foreach($belanja as $key => $keranjang)
     {
         foreach($barang as $idg => $goods)
         {
             if ($idp == $keranjang[0] && $keranjang[1] == $idg) {
-                echo "<li>" . $goods['desc']." ". $keranjang[2]." buah @". $goods['harga'].
-                ", total Rp." ($keranjang[2] * $goods['harga'])."</li>";
-                $total 
+                echo "<li>" . $goods['desc']." ". $keranjang[2]." buah @". $goods['harga'].", total Rp.".($keranjang[2] * $goods['harga'])."</li>";
+                $total += ($goods['harga'] * $keranjang[2]);
             }
         }
     }
