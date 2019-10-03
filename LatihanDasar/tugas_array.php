@@ -1,4 +1,7 @@
 <?php
+// NAMA : IBNU AZAM ALFANSURI
+// NIM : 4611417051
+// MATA KULIAH : Praktikum Web Programming (Tugas Array)
 // array
 $customer = array(
     "A001" => "Andi",
