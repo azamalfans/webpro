@@ -6,4 +6,14 @@ if(defined("INDEX") == false)
 }
 ?>
 <h3>
-Data Mahasiswa
+Form Tambah Mahasiswa
+<span class="float-right">
+<a href="index.php?page=mahasiswa" class="btn btn-light">
+Kembali
+</a>
+</span>
+</h3>
+<form action="index.php?page=simpan_mhs" method="post">
+<table>
+<tr>
+<td>NIM</td>
