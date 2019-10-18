@@ -15,3 +15,10 @@ function get_data_mahasiswa()
     $sql = "select * from mahasiswa";
     return mysqli_query($koneksi,$sql);
 }
+function get_mhs_by_nim($nim)
+{
+    $koneksi = connect_to_db();
+    $sql = "select * from mahasiswa where nim=".$nim;
+    $query = mysqli_query($koneksi,$sql);
+    return mysqli_fetch_array($query);
+}
