@@ -1,3 +1,5 @@
+<?php
+if(defined("INDEX") = )
 <form action="login.php" method="post">
 Username<br />
 <input type="text" name="username" />
