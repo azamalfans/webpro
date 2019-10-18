@@ -6,6 +6,6 @@ if(defined("INDEX") == false)
 }
 ?>
 <h3>
-Data Mahasiswa
-<span class="float-right">
-<a href="index.php?page=simpan_mhs"
+<span>
+<a href="">
+</a></span></h3>
