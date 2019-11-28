@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav.navbar {
+    display: flex;
+    padding: 10px 5vw;
+    background-color: #fb8c00;
+}
+
+.logo {
+    flex: 1;
+}
+
+.nav-links {
+    flex: 2;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+a.nav-link,
+li {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    color: black;
+
+}
+
+.path1 {
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    top: -7vh;
+    left: -150px;
+    z-index: -2;
+}
