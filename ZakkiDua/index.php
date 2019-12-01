@@ -15,22 +15,22 @@
 			<img src="" alt="">
 
 		</div>
-		<p>Username</p>
+		<p></p>
 		<ul>
 			<a href="index.php?page=dashboard">
 				<li>Dashboard</li>
 			</a>
 			<a href="index.php?page=new_project">
-				<li>New Project</li>
+				<li>Input Data</li>
 			</a>
 			<a href="index.php?page=on_work">
-				<li>On Work</li>
+				<li>Chart</li>
 			</a>
 			<a href="index.php?page=completed_project">
-				<li>Completed Project</li>
+				<li>About Me</li>
 			</a>
 			<a href="index.php?page=revision_project">
-				<li>Revision</li>
+				<li>Log Out</li>
 			</a>
 		</ul>
 	</nav>

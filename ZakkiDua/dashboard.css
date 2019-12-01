@@ -62,7 +62,7 @@ tr:nth-child(even) {
 }
 
 nav {
-  background-color: #FB8C00;
+  background-color: #3c475d;
   width: 300px;
   height: 100vh;
   display: -webkit-box;
@@ -110,7 +110,7 @@ nav li {
 }
 
 nav li:hover {
-  background-color: #FBC076;
+  background-color: #3c475d;
 }
 
 .main-content {
