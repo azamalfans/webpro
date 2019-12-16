@@ -1,7 +1,7 @@
 <?php
 function connect_to_db()
 {
-    $koneksi = mysqli_connect("127.0.0.1", "root", "", "webon");
+    $koneksi = mysqli_connect("127.0.0.1", "root", "", "web_prog");
 
     if ($koneksi == false) {
         echo mysqli_error($koneksi);
